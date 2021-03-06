@@ -1,0 +1,15 @@
+n=int(input("Input a number for the end limit for the fibonacci series"))
+a=0
+b=1
+c=1
+print(a)
+print(b)
+
+while c<=n :
+    print(c)
+    a=b
+    b=c
+    c=a+b
+
+    
+    
